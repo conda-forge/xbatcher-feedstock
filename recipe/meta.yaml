@@ -24,6 +24,7 @@ requirements:
     - xarray
     - dask
     - numpy
+    - setuptools
 
 test:
   imports:
