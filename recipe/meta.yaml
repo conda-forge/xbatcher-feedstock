@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -31,7 +31,7 @@ test:
     - xbatcher
 
 about:
-  home: https://github.com/pangeo-data/xbatcher
+  home: https://github.com/xarray-contrib/xbatcher
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -41,7 +41,7 @@ about:
     The goal is to make it easy to feed xarray datasets to machine learning
     libraries such as Keras.
   doc_url: https://xbatcher.readthedocs.io/en/latest
-  dev_url: https://github.com/pangeo-data/xbatcher
+  dev_url: https://github.com/xarray-contrib/xbatcher
 
 extra:
   recipe-maintainers:
