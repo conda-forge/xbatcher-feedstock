@@ -24,11 +24,14 @@ requirements:
     - xarray
     - dask
     - numpy
-    - setuptools
 
 test:
   imports:
     - xbatcher
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/xarray-contrib/xbatcher
