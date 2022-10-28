@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >=3.8
     - xarray
     - dask
     - numpy
@@ -32,14 +32,14 @@ test:
 
 about:
   home: https://github.com/xarray-contrib/xbatcher
-  license: MIT
-  license_family: MIT
+  license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
   summary: Batch Generation from Xarray Datasets
   description: |
     Xbatcher is a small library for iterating xarray DataArrays in batches.
     The goal is to make it easy to feed xarray datasets to machine learning
-    libraries such as Keras.
+    libraries such as PyTorch or TensorFlow.
   doc_url: https://xbatcher.readthedocs.io/en/latest
   dev_url: https://github.com/xarray-contrib/xbatcher
 
