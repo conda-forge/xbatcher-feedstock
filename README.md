@@ -3,7 +3,7 @@ About xbatcher
 
 Home: https://github.com/xarray-contrib/xbatcher
 
-Package license: MIT
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xbatcher-feedstock/blob/main/LICENSE.txt)
 
