@@ -15,7 +15,7 @@ Documentation: https://xbatcher.readthedocs.io/en/latest
 
 Xbatcher is a small library for iterating xarray DataArrays in batches.
 The goal is to make it easy to feed xarray datasets to machine learning
-libraries such as Keras.
+libraries such as PyTorch or TensorFlow.
 
 
 Current build status
