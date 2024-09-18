@@ -1,5 +1,5 @@
 {% set name = "xbatcher" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f382830d2214643c199e1763c0fc96b472eeb3a50d6878191476bf343439c005
+  sha256: 6744005c76699659586a92d35a497e327749b37aa441e941c07a696ec99b6a8f
 
 build:
   noarch: python
