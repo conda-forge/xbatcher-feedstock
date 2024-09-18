@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.10
     - pip
     - setuptools_scm
   run:
-    - python >=3.8
+    - python >=3.10
     - xarray
     - dask
     - numpy
@@ -48,6 +48,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - andersy005
     - maxrjones
     - jhamman
     - rabernat
